@@ -10,11 +10,49 @@
 </head>
 <body>
       <div class="container">
-            <div class="head">
+       <div class="head">
                 <h1>AKAN NAMING</h1>
                 <h2>Follow the right procedure to get your akan name</h2>
-            </div> 
+       </div> 
+       <div class="frm">
+                  <form action="" id="myForm" class="form">
+                      <fieldset>
+                              
+                             <lable>Enter Date of Birth:</lable>
+                              <input type="text" id="d"  class="in" maxlength="2" placeholder="DD"  autofocus autocomplete="on"  required>
+                              <div>
+                                  <h4 id="one"></h4>
+                              </div><br><br>
+                              <lable>Enter Month:</lable>
+                              <input type="text" id="m"  class="in" maxlength="2" placeholder="MM" autocomplete="on" required>
+                              <div>
+                                  <h4 id="two"></h4>
+                              </div><br><br>
+                              <lable>Enter Year of Birth:</lable>
+                              <input type="text" id="yy"  maxlength="4" class="in" placeholder="YYYY" autocomplete="on" required>
+                              <div>
+                                  <h4 id="three"></h4>
+                              </div><br><br>
+                                  <h1>Select gender</h1>
+                              <div><h4 id="four"></h4></div>
+                              <lable>Male:
+                                      
+                              <input type="radio" class="g" name="gd" value="male" required></lable>
+                              <lable>Female:
+                                  <input type="radio" class="g" name="gd" value="female" required></lable>
+                      </fieldset>
+                      
+                  </form>
+      </div>
+      <div class="sub">
+            <button type="button" sub-btn  onclick="execute()">Submit</button>
+            <button type="button"  onclick="ClearFields()">Reset</button>
+        </div>
+        <div class="output">
+            <h1>And your Akan name is:<span id="ans"></span></h1>
 
-
+        </div>
+    </div>
+    <script src="js/scripts.js"></script>
 </body>
 </html>
