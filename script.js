@@ -76,3 +76,35 @@ function validation() {
   alert('Invalid date format!');
   return false;
   }
+}
+if(isNaN(year) || year === "" ||year === null || year <1900 || year > currentYear){
+  document.getElementById('three').innerHTML = "invalid year";
+  document.getElementById('three').style.color = "red"
+      alert("invalid year");
+      return false;
+}
+  if (gender[0].checked === false && gender[1].checked === false) {
+      document.getElementById('four').innerHTML = "select gender";
+      document.getElementById('four').style.color = "red"
+      alert('select gender');
+      
+   } else {
+       for (i = 0; i < gen.length; i++) {
+           if (gender[i].checked){
+              alert(genger[i].value);
+                  var gender = gender[i].value;
+       }
+                  var userInputs ={
+                      userDate: date,
+                      userMonth: month,
+                      userYear: year,
+                      userGender: gend
+                  };
+                  
+                  return userInputs;
+                  }
+                  
+              
+              }           
+
+}
