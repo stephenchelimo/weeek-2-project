@@ -137,3 +137,29 @@ var daysOfaweek = new Array('Sunday', 'Monday', 'Tuesday', 'Wednesday',
 
 
 var realDay = daysOfaweek[dayOfTheWeek];
+if (newGender ==="male") {
+    for (var name in maleNames) {
+            if (maleNames.hasOwnProperty(name)) {
+                if (name === realDay) {
+                    document.getElementById('ans').innerHTML = maleNames[name];
+                    document.getElementById('three').style.backgroundColor = "black";
+                    document.getElementById('three').style.color = "white";
+                    alert("Your Akan name is "+maleNames[name]);
+                }
+            }
+        }
+    
+     }else {
+        for (var name in femaleNames) {
+                if (femaleNames.hasOwnProperty(name)) {
+                    if (name === realDay) {
+                        document.getElementById('ans').innerHTML = femaleNames[name];
+                        document.getElementById('three').style.backgroundColor = "black";
+                    document.getElementById('three').style.color = "white";
+                        alert("Your Akan name is "+femaleNames[name]);
+                    }
+                }
+            }
+        
+         }
+    }
