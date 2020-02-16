@@ -108,3 +108,32 @@ if(isNaN(year) || year === "" ||year === null || year <1900 || year > currentYea
               }           
 
 }
+
+function execute(){
+    var a = validation();
+    var DD = parseInt(a.userDate);
+    var MM = parseInt(a.userMonth);
+    var newYear = a.userYear;
+    var YY = parseInt(newYear.slice(2,4));
+    var CC = parseInt(newYear.slice(0,2));
+    var newGender = a.userGender;
+//var weekDate = Math.floor((((CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) % 7);
+// var a = (14 - month) / 12
+//                                       //calculating dday of the week
+// var y = year - a                          // 
+
+// var m = month + 12 * a - 2
+
+// var d = (day + y + y / 4 - y / 100 + y / 400 + (31 * m / 12) % 7
+
+var a = Math.floor((14 - MM) / 12);
+var y = newYear - a;
+var m = MM + 12 * a - 2;
+var dayOfTheWeek = (DD + y + Math.floor(y / 4) - Math.floor(y / 100) +
+Math.floor(newYear / 400) + Math.floor((31 * m) / 12)) % 7;
+
+var daysOfaweek = new Array('Sunday', 'Monday', 'Tuesday', 'Wednesday',       
+        'Thursday', 'Friday', 'Saturday');
+
+
+var realDay = daysOfaweek[dayOfTheWeek];
