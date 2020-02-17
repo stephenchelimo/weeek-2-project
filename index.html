@@ -1,58 +1,44 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="css/bootstrap.css">
-      <link rel="stylesheet" href="css/styles.css" type="text/css">
-      <title>akan Name Finder</title>
-  
-</head>
-<body>
-      <div class="container">
-       <div class="head">
-                <h1>Akan Name Predictor</h1>
-                <h2>Follow the right procedure to get your akan name</h2>
-       </div> 
-       <div class="frm">
-                  <form action="" id="myForm" class="form">
-                      <fieldset>
-                              
-                             <lable>Enter Date of Birth:</lable>
-                              <input type="text" id="d"  class="in" maxlength="2" placeholder="DD"  autofocus autocomplete="on"  required>
-                              <div>
-                                  <h4 id="one"></h4>
-                              </div><br><br>
-                              <lable>Enter Month:</lable>
-                              <input type="text" id="m"  class="in" maxlength="2" placeholder="MM" autocomplete="on" required>
-                              <div>
-                                  <h4 id="two"></h4>
-                              </div><br><br>
-                              <lable>Enter Year of Birth:</lable>
-                              <input type="text" id="yy"  maxlength="4" class="in" placeholder="YYYY" autocomplete="on" required>
-                              <div>
-                                  <h4 id="three"></h4>
-                              </div><br><br>
-                                  <h1>Select gender</h1>
-                              <div><h4 id="four"></h4></div>
-                              <lable>Male:
-                                      
-                              <input type="radio" class="g" name="gd" value="male" required></lable>
-                              <lable>Female:
-                                  <input type="radio" class="g" name="gd" value="female" required></lable>
-                      </fieldset>
-                      
-                  </form>
-      </div>
-      <div class="sub">
-            <button type="button" sub-btn  onclick="execute()">Submit</button>
-            <button type="button"  onclick="ClearFields()">Reset</button>
-        </div>
-        <div class="output">
-            <h1>final answer your akan name will be::<span id="ans"></span></h1>
 
-        </div>
-    </div>
-    <script src="js/scripts.js"></script>
-</body>
-</html>
+<html>
+      <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+          <title>Akan</title>
+          <link href="css/ styles.css" rel="stylesheet" type="text/css"></link>
+      </head>
+       <body class="body">
+           <div class="container">
+               <div class="jumbotron" style="background-image: url(akan.png); background-size: 10;">
+                 <h1 style="text-align: center;" >Akan Naming System</h1>
+                <h2>Have a try </h2><br>
+                      <table>
+                       <tr></tr>
+                      </table>
+           <div class="body">
+                <form>
+                  <label class="name">Name</label>
+                   <input type="name" placeholder="Name" name="name" id="name" required/>
+                  </label><br><br>
+                  <label class="day">Day </label>
+                   <input type="number" placeholder="DD" name="day"  id="day" min="1" max="31" required></input>
+                  </label><br><br>
+                  <label>Month:</label>
+                   <input type="number" id="month" min="01" max="12" step="1" placeholder="MM" value="" required />
+                  </label>
+                  <label>Year</label>
+                   <input type="number" id="year" min="1900" max="2099" step="1" placeholder="YYYY" value=""  required /><br><br>
+                  <label class="gender">Gender</label>
+                   <div id="gender">
+                    <input type="radio" name="gender" id="gender" value="male" checked> Male <br>
+                      <input type="radio" name="gender" value="female"> Female <br>
+                   </div> <br><br>
+                     <button type="submit" value="Submit" onclick="results()">Submit</button>
+                </form>
+               </div>
+              </div>
+            </div>
+          </div>
+       </body>
+  </html>
+  <script src="script.js"></script>
