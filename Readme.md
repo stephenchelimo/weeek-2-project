@@ -18,4 +18,4 @@ licence
 #
 it is licenced by MIT licence
 #
-copyright stephen 2020
+copyright stephen 2020.
