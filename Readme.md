@@ -7,7 +7,9 @@ A web application that takes a user's birthday and calculates the day of the wee
 #
 technology used
 #
-HTML & CSS (Bootstrap)
+HTML 
+CSS
+Bootstrap
 JavaScript
 #
 author
