@@ -15,16 +15,16 @@ function results() {
     }
     if (month <1 || month>12){
         alert("Invalid month");
-        return false;
+return false;
     }
     if(year <1900 || year >2030){
-            alert("invalid year");
+                    alert("invalid year");
             return false;
     }
     if(gender === "male") {
-        akan =akanMale[day2];
+        akan =akanMale[day1];
     }else{
-            akan =akanFemale[day2];
+            akan =akanFemale[day1];
     }
             alert("You were born on " + dayOfTheWeek [day2] + "  and your akan name is " + akan);
 }
