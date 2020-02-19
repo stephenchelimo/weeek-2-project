@@ -1,6 +1,8 @@
 body {
-    background-image: url("../../pics/name.jpeg");
+    background-image: url("../../pics/akan.jpeg");
     color:white;
+    background-size: cover;
+    background-repeat: repeat;
 }
 div{
     color:blueviolet;
