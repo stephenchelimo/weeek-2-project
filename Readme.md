@@ -17,13 +17,13 @@ CSS
 #
 BDD
 #
-Inputs	Description
+Inputs	  Description
 
-Year	The year of the century eg 1900-2099
+Year	    The year of the century eg 1900-2099
 
-Month	The month of the year eg 1-12
+Month	    The month of the year eg 1-12
 
-Date	The day of the month e.g 1-31
+Date	    The day of the month e.g 1-31
 
 #
 Outputs	Description
