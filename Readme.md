@@ -1,7 +1,7 @@
 #
-title
+TITLE
 #
-AKAN NAMING PROGRAM
+Akan naming program
 
 #
 Description.
@@ -11,7 +11,9 @@ A web application that takes a user's birthday, calculates the day of the week t
 technologies used
 #
 HTML
+
 JAVASCRIPT
+
 CSS
 
 #
