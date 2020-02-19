@@ -4,6 +4,12 @@ TITLE
 Akan naming program
 
 #
+landing page
+#
+file:///home/chelimo/Pictures/Screenshot%20from%202020-02-19%2010-31-01.png
+ this is the link to my landing page.
+
+#
 DESCRIPTION.
 #
 A web application that takes a user's birthday, calculates the day of the week they were born and then depending on their gender outputs their Akan Name.
