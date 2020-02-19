@@ -2,3 +2,11 @@ body {
     background-image: url("../../pics/name.jpeg");
     color:white;
 }
+div{
+    color:blueviolet;
+    background-color: yellowgreen;
+}
+label{
+    color:red;
+    background-color: whitesmoke;
+}
