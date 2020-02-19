@@ -4,11 +4,11 @@ TITLE
 Akan naming program
 
 #
-Description.
+DESCRIPTION.
 #
 A web application that takes a user's birthday, calculates the day of the week they were born and then depending on their gender outputs their Akan Name.
 #
-technologies used
+TECHNOLOGIES USED
 #
 HTML
 
@@ -35,11 +35,11 @@ Day of birth	The day of the week that the user was born eg Tuesday
 Akan name	The corresponding Akan name for the user eg Kofi
 
 #
-License
+LICENCE
 #
 MIT License
 
 #
-copyright
+COPYRIGHT
 #
 @copyright stephen 2020
