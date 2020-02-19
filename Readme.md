@@ -1,23 +1,31 @@
 #
+title
+#
 weeek-2-project
+
 #
-description
+Description.
 #
-A web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.
+A web application that takes a user's birthday, calculates the day of the week they were born and then depending on their gender outputs their Akan Name.
+
 #
-technology used
+BDD
 #
-HTML 
-CSS
-Bootstrap
-JavaScript
+Inputs	Description
+Year	The year of the century eg 1900-2099
+Month	The month of the year eg 1-12
+Date	The day of the month e.g 1-31
 #
-author
+Outputs	Description
 #
-this is written by stephen chelimo
+Day of birth	The day of the week that the user was born eg Tuesday
+Akan name	The corresponding Akan name for the user eg Kofi
 #
-licence
+License
 #
-it is licenced by MIT licence
+MIT License
+
 #
-copyright stephen 2020.
+copyright
+#
+@copyright stephen 2020
